@@ -1,0 +1,35 @@
+h1 {
+    color: red;
+}
+
+#card-container {
+
+    border: 5px dotted purple;   
+}
+
+.card {
+    border: 2px solid salmon;
+}
+
+p {
+    color:  rebeccapurple;
+    font-size: 20px;
+}
+
+.card > p {
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.card:first-child {
+    background-color: rgb(196, 255, 211);
+}
+
+.card:last-child {
+    background-color: blueviolet;
+}
+.card:nth-child(2) {
+    background-color: tan;
+}
